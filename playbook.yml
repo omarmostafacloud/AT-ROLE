@@ -1,0 +1,4 @@
+- name: Install and Configure NGINX
+  hosts: all
+  roles:
+    - geerlingguy.mysql
